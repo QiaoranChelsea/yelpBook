@@ -111,6 +111,10 @@ public class RepoDetailActivity extends AppCompatActivity {
             case R.id.action_share:
                 shareRepo();
                 return true;
+            case R.id.action_write_review:
+                Intent reviewIntent = new Intent(this, reviewActivity.class);
+                startActivity(reviewIntent);
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

@@ -5,6 +5,8 @@
     <string name="loading_error">Unable to run query.  Check internet.</string>
     <string name="action_share">Share</string>
     <string name="action_view_on_web">View repo on Yelp</string>
+    <string name="action_write_review">Write Review</string>
+
     <string name="share_chooser_title">How do you want to share this repo?</string>
     <string name="share_repo_text">%1$s: %2$s</string>
 
@@ -57,4 +59,8 @@
     <!-- Strings for user preference -->
     <string name="pref_location_key" translatable="false">pref_city</string>
     <string name="pref_location_title">City Preference</string>
+
+    <!--Strings for writing review-->
+    <string name="review_content_key" translatable="false">review_content</string>
+    <string name="review_title">Write Your Review Here: </string>
 </resources>

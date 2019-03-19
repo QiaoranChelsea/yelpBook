@@ -28,6 +28,13 @@
                 android:value="com.example.android.yelpsearch.MainActivity" />
         </activity>
         <activity
+            android:name="com.example.android.yelpsearch.reviewActivity"
+            android:parentActivityName="com.example.android.yelpsearch.RepoDetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.yelpsearch.RepoDetailActivity" />
+        </activity>
+        <activity
             android:name="com.example.android.yelpsearch.RepoDetailActivity"
             android:parentActivityName="com.example.android.yelpsearch.MainActivity">
             <meta-data
