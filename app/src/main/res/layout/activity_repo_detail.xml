@@ -20,15 +20,15 @@
 
         <ImageView
             android:id="@+id/iv_repo_bookmark"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
             android:src="@drawable/ic_bookmark_border_black_24dp"/>
 
         <TextView
             android:id="@+id/tv_repo_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="40sp"
+            android:textSize="35sp"
             android:textColor="#000"/>
     </LinearLayout>
 
